@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Git - Estudiantes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .instructions {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+        }
+
+        .students {
+            background: linear-gradient(135deg, #00b894, #00a085);
+            color: white;
+        }
+
+        .git-concepts {
+            background: linear-gradient(135deg, #fdcb6e, #e17055);
+            color: white;
+        }
+
+        .resources {
+            background: linear-gradient(135deg, #a29bfe, #6c5ce7);
+            color: white;
+        }
+
+        .stats {
+            background: linear-gradient(135deg, #fd79a8, #e84393);
+            color: white;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            padding-bottom: 10px;
+        }
+
+        .instruction-list {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+
+        .instruction-list li {
+            counter-increment: step-counter;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            position: relative;
+            padding-left: 60px;
+        }
+
+        .instruction-list li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(255,255,255,0.2);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .student-card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid rgba(255,255,255,0.3);
+        }
+
+        .student-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .student-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .info-item {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .concept-item {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+
+        .resource-list {
+            list-style: none;
+        }
+
+        .resource-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+        }
+
+        .resource-list a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .resource-list a:hover {
+            text-decoration: underline;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .refresh-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            background: #34495e;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Práctica de Git</h1>
+            <p>Panel de Estudiantes - Curso de Programación</p>
+        </div>
+
+        <div class="content" id="content">
+            <div class="loading">
+                <p>📚 Cargando información de estudiantes...</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="refresh-btn" onclick="loadData()" title="Actualizar datos">
+        🔄 Actualizar
+    </button>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('playground-1.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Error HTTP: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                displayData(data);
+            } catch (error) {
+                console.error('Error al cargar el JSON:', error);
+                document.getElementById('content').innerHTML = `
+                    <div class="error">
+                        <h2>❌ Error al cargar los datos</h2>
+                        <p>Asegúrate de que el archivo 'playground-1.json' esté en la misma carpeta que este HTML.</p>
+                        <p>Error técnico: ${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        function displayData(data) {
+            const content = document.getElementById('content');
+            
+            content.innerHTML = `
+                <div class="section instructions">
+                    <h2>📋 Instrucciones para Contribuir</h2>
+                    <ol class="instruction-list">
+                        ${data.instrucciones.map(instruction => `<li>${instruction}</li>`).join('')}
+                    </ol>
+                </div>
+
+                <div class="section students">
+                    <h2>👨‍💻 Estudiantes Participantes (${data.estudiantes.length})</h2>
+                    ${data.estudiantes.map(student => `
+                        <div class="student-card">
+                            <div class="student-name">🎓 ${student.nombre}</div>
+                            <div class="student-info">
+                                <div class="info-item">
+                                    <strong>GitHub:</strong> @${student.usuario_github}
+                                </div>
+                                <div class="info-item">
+                                    <strong>Lenguaje favorito:</strong> ${student.lenguaje_favorito}
+                                </div>
+                                <div class="info-item">
+                                    <strong>Contribución:</strong> ${student.fecha_contribucion}
+                                </div>
+                            </div>
+                            <div style="margin-top: 15px; font-style: italic; font-size: 1.1em;">
+                                💡 "${student.frase_motivacional}"
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <div class="section git-concepts">
+                    <h2>🛠️ Conceptos de Git que Practicaremos</h2>
+                    <div class="concept-grid">
+                        ${data.conceptos_git_practicados.map(concept => `
+                            <div class="concept-item">${concept}</div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <div class="section resources">
+                    <h2>📚 Recursos Adicionales</h2>
+                    <ul class="resource-list">
+                        <li><strong>Documentación Git:</strong> <a href="${data.recursos_adicionales.documentacion_git}" target="_blank">Guía oficial</a></li>
+                        <li><strong>Tutorial Interactivo:</strong> <a href="${data.recursos_adicionales.tutorial_interactivo}" target="_blank">Aprender Git jugando</a></li>
+                        <li><strong>Cheat Sheet:</strong> <a href="${data.recursos_adicionales.cheat_sheet}" target="_blank">Comandos importantes</a></li>
+                    </ul>
+                </div>
+
+                <div class="section stats">
+                    <h2>📊 Estadísticas del Proyecto</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">${data.estadisticas.total_estudiantes}</span>
+                            <span>Estudiantes</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">${data.estadisticas.version}</span>
+                            <span>Versión</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">${data.estadisticas.ultima_actualizacion}</span>
+                            <span>Última actualización</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Cargar datos al iniciar la página
+        document.addEventListener('DOMContentLoaded', loadData);
+
+        // Auto-actualizar cada 30 segundos para ver cambios en tiempo real
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>

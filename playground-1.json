@@ -2,9 +2,9 @@
   "proyecto": "Práctica de Git - Curso de Programación",
   "descripcion": "Archivo para que los estudiantes practiquen comandos básicos de Git",
   "instrucciones": [
-    "1. Haz fork del repositorio",
-    "2. Clona tu fork localmente",
-    "3. Crea una nueva rama con tu nombre",
+    "1. Ir al repositorio de la materia en GitHub",
+    "2. Clona tu repositorio localmente",
+    "3. Crea una nueva rama con tu nombre y apellido",
     "4. Agrega tu información en la sección 'estudiantes'",
     "5. Haz commit de tus cambios",
     "6. Sube tu rama al repositorio",
@@ -12,11 +12,11 @@
   ],
   "estudiantes": [
     {
-      "nombre": "Ejemplo Estudiante",
-      "usuario_github": "ejemplo-usuario",
-      "lenguaje_favorito": "JavaScript",
-      "frase_motivacional": "¡Programar es crear el futuro!",
-      "fecha_contribucion": "2024-01-15"
+      "nombre": "Alicia",
+      "usuario_github": "aliciaferreira",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "¡Nadie se salva solo!",
+      "fecha_contribucion": "22 de Mayo de 2025"
     }
   ],
   "conceptos_git_practicados": [
@@ -34,13 +34,13 @@
     "cheat_sheet": "https://education.github.com/git-cheat-sheet-education.pdf"
   },
   "reglas_contribucion": {
-    "formato_commit": "Usar mensajes descriptivos en español",
+    "formato_commit": "Usar mensajes descriptivos en inglés",
     "naming_branches": "usar-guiones-y-minusculas",
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
     "total_estudiantes": 1,
-    "ultima_actualizacion": "2024-01-15",
+    "ultima_actualizacion": "22 de Mayo de 2025",
     "version": "1.0.0"
   }
 }

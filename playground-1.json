@@ -17,7 +17,14 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "22 de Mayo de 2025"
-    }
+    },
+  {
+    "nombre": "Alexis",
+    "usuario_github": "alexisgomezbalbuena",
+    "lenguaje_favorito": "PHP",
+    "frase_motivacional": "Nunca es tarde para empezar",
+    "fecha_contribucion": "24 de Mayo de 2025"
+  }
   ],
   "conceptos_git_practicados": [
     "git clone",

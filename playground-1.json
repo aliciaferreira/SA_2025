@@ -17,7 +17,14 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "22 de Mayo de 2025"
-    }
+    },
+    {
+    "nombre": "Cristian",
+    "usuario_github": "AyalaCristianM",
+    "lenguaje_favorito": "PHP-PYTHON",
+    "frase_motivacional": "cada error es un paso mas hacia el exito!",
+    "fecha_contribucion": "26 de Mayo de 2025"
+  }
   ],
   "conceptos_git_practicados": [
     "git clone",

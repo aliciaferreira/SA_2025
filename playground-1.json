@@ -17,6 +17,13 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "22 de Mayo de 2025"
+    },
+    {
+      "nombre": "Javier",
+      "usuario_github": "jG22Dev",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Make you bed!!!",
+      "fecha_contribucion": "1 de junio de 2025"
     }
   ],
   "conceptos_git_practicados": [
@@ -40,7 +47,7 @@
   },
   "estadisticas": {
     "total_estudiantes": 1,
-    "ultima_actualizacion": "22 de Mayo de 2025",
+    "ultima_actualizacion": "1 de junio de 2025",
     "version": "1.0.0"
   }
 }

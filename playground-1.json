@@ -19,6 +19,14 @@
       "fecha_contribucion": "22 de Mayo de 2025"
     },
     {
+      "nombre": "Stefania",
+      "apellido": "Pirollo",
+      "usuario_github": "stefaniapirollo",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Learning never stops",
+      "fecha_contribucion": "8 de Junio de 2025"
+    },
+    {
     "nombre": "Cristian",
     "usuario_github": "AyalaCristianM",
     "lenguaje_favorito": "PHP-PYTHON",
@@ -46,7 +54,7 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 2,
+    "total_estudiantes": 3,
     "ultima_actualizacion": "12 de Junio de 2025",
     "version": "1.0.0"
   }

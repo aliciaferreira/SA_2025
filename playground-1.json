@@ -32,6 +32,13 @@
     "lenguaje_favorito": "PHP-PYTHON",
     "frase_motivacional": "cada error es un paso mas hacia el exito!",
     "fecha_contribucion": "26 de Mayo de 2025"
+  },
+  {
+    "nombre": "DarioSanchez",
+    "usuario_github": "Darobarbaroja",
+    "lenguaje_favorito": "PHP-C#-Python",
+    "frase_motivacional": "Violencia es Mentir!",
+    "fecha_contribucion": "17 de Junio de 2025"
   }
   ],
   "conceptos_git_practicados": [
@@ -54,8 +61,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 3,
-    "ultima_actualizacion": "12 de Junio de 2025",
+    "total_estudiantes": 4,
+    "ultima_actualizacion": "17 de Junio de 2025",
     "version": "1.0.0"
   }
 }

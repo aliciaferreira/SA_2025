@@ -33,6 +33,14 @@
     "frase_motivacional": "cada error es un paso mas hacia el exito!",
     "fecha_contribucion": "26 de Mayo de 2025"
   }
+  {
+      "nombre": "Karen",
+      "apellido": "Gomez",
+      "usuario_github": "karen-gomez7",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "La perseverancia es la clave del éxito",
+      "fecha_contribucion": "17 de Junio de 2025"
+    }
   ],
   "conceptos_git_practicados": [
     "git clone",

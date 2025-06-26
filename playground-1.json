@@ -40,8 +40,14 @@
     "lenguaje_favorito": "PHP",
     "frase_motivacional": "Si crees que puedes, ya estás a medio camino",
     "fecha_contribucion": "17 de Junio 2025"
+  },
+  {
+      "nombre": "Georgina",
+      "usuario_github": "MAYGECE",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "fake it until you make it",
+      "fecha_contribucion": "28 de Mayo de 2025"
   }
-  
   ],
   "conceptos_git_practicados": [
     "git clone",

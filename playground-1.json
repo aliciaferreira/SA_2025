@@ -27,12 +27,19 @@
       "fecha_contribucion": "8 de Junio de 2025"
     },
     {
-    "nombre": "Cristian",
-    "usuario_github": "AyalaCristianM",
-    "lenguaje_favorito": "PHP-PYTHON",
-    "frase_motivacional": "cada error es un paso mas hacia el exito!",
-    "fecha_contribucion": "26 de Mayo de 2025"
-  }
+      "nombre": "Cristian",
+      "usuario_github": "AyalaCristianM",
+      "lenguaje_favorito": "PHP-PYTHON",
+      "frase_motivacional": "cada error es un paso mas hacia el exito!",
+      "fecha_contribucion": "26 de Mayo de 2025"
+    },
+    {
+      "nombre": "Daniel Baez",
+      "usuario_github": "danielbaez95",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Siempre se puede mejorar.",
+      "fecha_contribucion": "29 de junio de 2025"
+    }
   ],
   "conceptos_git_practicados": [
     "git clone",
@@ -54,8 +61,9 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 3,
-    "ultima_actualizacion": "12 de Junio de 2025",
+    "total_estudiantes": 4,
+    "ultima_actualizacion": "29 de Junio de 2025",
     "version": "1.0.0"
   }
 }
+

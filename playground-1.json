@@ -32,7 +32,14 @@
     "lenguaje_favorito": "PHP-PYTHON",
     "frase_motivacional": "cada error es un paso mas hacia el exito!",
     "fecha_contribucion": "26 de Mayo de 2025"
-  }
+  },
+    {
+     "nombre": "Pablo",
+     "usuario_github": "pablopereyra",
+     "lenguaje_favorito": "PHP",
+     "frase_motivacional": "¡Tu alma es mi razón. Tu alma es la fuerza!",
+     "fecha_contribucion": "1 de Julio de 2025"
+    }
   ],
   "conceptos_git_practicados": [
     "git clone",
@@ -54,8 +61,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 3,
-    "ultima_actualizacion": "12 de Junio de 2025",
+    "total_estudiantes": 4,
+    "ultima_actualizacion": "1 de Julio de 2025",
     "version": "1.0.0"
   }
 }

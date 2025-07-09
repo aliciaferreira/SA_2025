@@ -17,6 +17,13 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "22 de Mayo de 2025"
+    },
+    {
+      "nombre": "Julian Dominguez",
+      "usuario_github": "julianhd40",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "After all this time? Always",
+      "fecha_contribucion": "30 de Mayo de 2025"
     }
   ],
   "conceptos_git_practicados": [
@@ -39,8 +46,9 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 1,
-    "ultima_actualizacion": "22 de Mayo de 2025",
-    "version": "1.0.0"
+    "total_estudiantes": 2,
+    "ultima_actualizacion": "30 de Mayo de 2025",
+    "version": "1.0.1"
   }
 }
+ 

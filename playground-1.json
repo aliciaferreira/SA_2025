@@ -41,6 +41,14 @@
     "frase_motivacional": "cada error es un paso mas hacia el exito!",
     "fecha_contribucion": "26 de Mayo de 2025"
   },
+  {
+      "nombre": "Sabrina",
+      "usuario_github": "Sabrina-Gutierrez",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Cada paso te acerca a tu meta.",
+      "fecha_contribucion": "10 de Julio de 2025"
+      
+    },
     {
      "nombre": "Pablo",
      "usuario_github": "pablopereyra",

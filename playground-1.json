@@ -27,6 +27,13 @@
       
     },
     {
+      "nombre": "Agustin Mattera Poggi" ,
+      "usuario_github": "AGUSTINMATTERAPOGGI",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Se verá cuando se vea.",
+      "fecha_contribucion": "14 de Julio de 2025"
+    },
+    {
       "nombre": "Stefania",
       "apellido": "Pirollo",
       "usuario_github": "stefaniapirollo",
@@ -99,7 +106,7 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 9,
+    "total_estudiantes": 10,
     "ultima_actualizacion": "14 de Julio de 2025",
     "version": "1.0.0"
   }

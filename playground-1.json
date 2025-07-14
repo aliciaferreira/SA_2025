@@ -63,6 +63,13 @@
       "frase_motivacional": "¡Los limites de tu lenguaje son los limites de tu mundo!",
       "fecha_contribucion": "13 de Julio de 2025"
     }
+     {
+      "nombre": "Julian Dominguez" ,
+      "usuario_github": "julianhd40",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "No importa lo lento que vayas, siempre y cuando no te detengas.",
+      "fecha_contribucion": "13 de Julio de 2025"
+    }
   ],
   "conceptos_git_practicados": [
     "git clone",
@@ -84,8 +91,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 4,
-    "ultima_actualizacion": "1 de Julio de 2025",
+    "total_estudiantes": 7,
+    "ultima_actualizacion": "13 de Julio de 2025",
     "version": "1.0.0"
   }
 }

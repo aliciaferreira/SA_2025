@@ -47,6 +47,14 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "fake it until you make it",
       "fecha_contribucion": "28 de Mayo de 2025"
+  },
+  {
+    "nombre": "Brian",
+      "usuario_github": "BrianOrellano01",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "No puedes cambiar el pasado, pero puedes cambiar el futuro.",
+      "fecha_contribucion": "14 de Junio de 2025"
+
   }
   ],
   "conceptos_git_practicados": [
@@ -69,8 +77,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 5,
-    "ultima_actualizacion": "26 de Junio de 2025",
+    "total_estudiantes": 6,
+    "ultima_actualizacion": "14 de Julio de 2025",
     "version": "1.0.0"
   }
 }

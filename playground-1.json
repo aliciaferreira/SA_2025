@@ -47,6 +47,13 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "fake it until you make it",
       "fecha_contribucion": "28 de Mayo de 2025"
+  }, 
+  {
+      "nombre": "Luca",
+      "usuario_github": "LucaExeqF",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Los escudos defienden corazones, tanto el tuyo como los de quienes están a tu lado",
+      "fecha_contribucion": "16/7/2025"
   }
   ],
   "conceptos_git_practicados": [
@@ -69,8 +76,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 5,
-    "ultima_actualizacion": "26 de Junio de 2025",
+    "total_estudiantes": 6,
+    "ultima_actualizacion": "16 de Julio 2025",
     "version": "1.0.0"
   }
 }

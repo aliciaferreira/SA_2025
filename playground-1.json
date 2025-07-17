@@ -18,6 +18,14 @@
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "19 de Junio de 2025"
     },
+       {
+      "nombre": "federico",
+      "apellido": "fosa",
+      "usuario_github": "fleitasfede01",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Learning never stops",
+      "fecha_contribucion": "17 de julio de 2025"
+    },
     {
       "nombre": "Stefania",
       "apellido": "Pirollo",
@@ -54,7 +62,7 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 3,
+    "total_estudiantes": 4,
     "ultima_actualizacion": "12 de Junio de 2025",
     "version": "1.0.0"
   }

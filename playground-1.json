@@ -27,6 +27,21 @@
       "fecha_contribucion": "17 de julio de 2025"
     },
     {
+      "nombre": "Sebastian",
+      "usuario_github": "sebalista",
+      "lenguaje_favorito": "SAP(ABAP)",
+      "frase_motivacional": "hola",
+      "fecha_contribucion": "07 de Julio de 2025"
+      
+    },
+    {
+      "nombre": "Agustin Mattera Poggi" ,
+      "usuario_github": "AGUSTINMATTERAPOGGI",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Se verá cuando se vea.",
+      "fecha_contribucion": "14 de Julio de 2025"
+    },
+    {
       "nombre": "Stefania",
       "apellido": "Pirollo",
       "usuario_github": "stefaniapirollo",
@@ -40,7 +55,92 @@
     "lenguaje_favorito": "PHP-PYTHON",
     "frase_motivacional": "cada error es un paso mas hacia el exito!",
     "fecha_contribucion": "26 de Mayo de 2025"
-  }
+  },
+  {
+      "nombre": "Sabrina",
+      "usuario_github": "Sabrina-Gutierrez",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Cada paso te acerca a tu meta.",
+      "fecha_contribucion": "10 de Julio de 2025"
+      
+    },
+    {
+     "nombre": "Pablo",
+     "usuario_github": "pablopereyra",
+     "lenguaje_favorito": "PHP",
+     "frase_motivacional": "¡Tu alma es mi razón. Tu alma es la fuerza!",
+     "fecha_contribucion": "1 de Julio de 2025"
+    },
+    {
+      "nombre": "Aldana",
+      "usuario_github": "aldana-celeste",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "¡Los limites de tu lenguaje son los limites de tu mundo!",
+      "fecha_contribucion": "13 de Julio de 2025"
+    },
+     {
+      "nombre": "Julian Dominguez" ,
+      "usuario_github": "julianhd40",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "No importa lo lento que vayas, siempre y cuando no te detengas.",
+      "fecha_contribucion": "13 de Julio de 2025"
+    },
+    {
+      "nombre": "Brian " ,
+      "usuario_github": "BrianOrellano01",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "No abandones un sueño sin darle la oportunidad de hacerse realidad.",
+      "fecha_contribucion": "14 de Julio de 2025"
+
+    },
+  {
+      "nombre": "Karen Gomez" ,
+      "usuario_github": "karen-gomez7",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Si puedes soñarlo, puedes lograrlo",
+      "fecha_contribucion": "14 de Julio de 2025"
+    },
+    {
+      "nombre": "Sebastian",
+      "usuario_github": "SebastianSp13",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Si te lo propones puedes conseguirlo todo",
+      "fecha_contribucion": "15 de Julio de 2025"
+      
+    },
+      {
+      "nombre": "Sol",
+      "apellido": "Palacios Koz",
+      "usuario_github": "SolPalacios",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "make yourself a priority",
+      "fecha_contribucion": "13 de Julio de 2025"
+      
+    },
+   
+    {
+      "nombre": "Cynthia",
+      "usuario_github": "CynthiaGomez7",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "No límites tus desafíos, desafía tus límites",
+      "fecha_contribucion": "15 de Julio de 2025"
+      
+    },
+    {
+      "nombre": "Agustin",
+      "usuario_github": "AGUSTINMOLINA99",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "Nunca es tarde",
+      "fecha_contribucion": "15 de Julio de 2025"
+      
+    },
+    {
+      "nombre": "Alexis",
+      "usuario_github": "AlexisG888",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "La perseverancia es la clave del éxito.",
+      "fecha_contribucion": "16 de Julio de 2025"
+    }
   ],
   "conceptos_git_practicados": [
     "git clone",
@@ -62,8 +162,8 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 4,
-    "ultima_actualizacion": "12 de Junio de 2025",
+    "total_estudiantes": 16,
+    "ultima_actualizacion": "16 de Julio de 2025",
     "version": "1.0.0"
   }
 }

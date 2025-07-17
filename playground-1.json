@@ -100,6 +100,16 @@
       "fecha_contribucion": "15 de Julio de 2025"
       
     },
+      {
+      "nombre": "Sol",
+      "apellido": "Palacios Koz",
+      "usuario_github": "SolPalacios",
+      "lenguaje_favorito": "PHP",
+      "frase_motivacional": "make yourself a priority",
+      "fecha_contribucion": "13 de Julio de 2025"
+      
+    },
+   
     {
       "nombre": "Cynthia",
       "usuario_github": "CynthiaGomez7",
@@ -144,7 +154,7 @@
     "codigo_conducta": "Ser respetuoso y colaborativo"
   },
   "estadisticas": {
-    "total_estudiantes": 15,
+    "total_estudiantes": 16,
     "ultima_actualizacion": "16 de Julio de 2025",
     "version": "1.0.0"
   }

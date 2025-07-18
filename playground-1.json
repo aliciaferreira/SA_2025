@@ -18,13 +18,6 @@
       "frase_motivacional": "¡Nadie se salva solo!",
       "fecha_contribucion": "19 de Junio de 2025"
     },
-    {
-  "nombre": "Darío",
-  "usuario_github": "Darobarbaroja",
-  "lenguaje_favorito": "PHP, Python, json",
-  "frase_motivacional": "Milhouse!!! has visto a Bart??",
-  "fecha": "18 de Julio de 2025"
-},
        {
       "nombre": "federico",
       "apellido": "fosa",
@@ -147,7 +140,14 @@
       "lenguaje_favorito": "PHP",
       "frase_motivacional": "La perseverancia es la clave del éxito.",
       "fecha_contribucion": "16 de Julio de 2025"
-    }
+    },
+     {
+  "nombre": "Darío",
+  "usuario_github": "Darobarbaroja",
+  "lenguaje_favorito": "PHP, Python, json",
+  "frase_motivacional": "Milhouse!!! has visto a Bart??",
+  "fecha": "18 de Julio de 2025"
+}
   ],
   "conceptos_git_practicados": [
     "git clone",
